@@ -6,6 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { MovieLoaderComponent } from './MovieLoader/movie-loader.component';
 import { MovieSearchComponent } from './MovieSearch/movie-search.component';
+import { MatSlideToggle, MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,8 @@ import { MovieSearchComponent } from './MovieSearch/movie-search.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    MatSlideToggle
+
   ],
   providers: [],
   bootstrap: [AppComponent]

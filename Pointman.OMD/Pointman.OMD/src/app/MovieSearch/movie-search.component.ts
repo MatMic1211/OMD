@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MovieService } from '../Service/movie.service';
 import { HttpErrorResponse } from '@angular/common/http';
+import { MatSlideToggle, MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 interface Movie {
   Title: string;
@@ -15,7 +16,9 @@ interface Movie {
 @Component({
   selector: 'app-movie-search',
   templateUrl: './movie-search.component.html',
-  styleUrls: ['./movie-search.component.css']
+  styleUrls: ['./movie-search.component.css'],
+  standalone: false,
+  imports: [MatSlideToggle]
 })
 export class MovieSearchComponent {
   movies: Movie[] = [];
