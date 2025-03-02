@@ -9,6 +9,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Folder Include="src\app\MovieSearch\" />
+    <Folder Include="src\app\MovieTable\" />
     <Folder Include="src\app\Service\" />
   </ItemGroup>
 </Project>

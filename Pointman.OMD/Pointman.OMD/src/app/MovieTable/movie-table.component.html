@@ -1,0 +1,24 @@
+<table class="movie-table">
+  <thead>
+    <tr>
+      <th (click)="sortData('Poster')">Poster</th>
+      <th (click)="sortData('Title')">Title</th>
+      <th (click)="sortData('Year')">Year</th>
+      <th (click)="sortData('Runtime')">Runtime</th>
+      <th (click)="sortData('Genre')">Genre</th>
+      <th (click)="sortData('Director')">Director</th>
+      <th (click)="sortData('Plot')">Plot</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let movie of movies">
+      <td><img [src]="movie.Poster" alt="{{ movie.Title }}" width="50"></td>
+      <td>{{ movie.Title }}</td>
+      <td>{{ movie.Year }}</td>
+      <td>{{ movie.Runtime }}</td>
+      <td>{{ movie.Genre }}</td>
+      <td>{{ movie.Director }}</td>
+      <td>{{ movie.Plot }}</td>
+    </tr>
+  </tbody>
+</table>

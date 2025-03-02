@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { MovieService } from '../Service/movie.service';
-import { HttpErrorResponse } from '@angular/common/http'; 
+import { HttpErrorResponse } from '@angular/common/http';
 
 interface Movie {
   Title: string;
@@ -26,7 +26,7 @@ export class MovieSearchComponent {
 
   onSearch(): void {
     this.isLoading = true;
-    this.movieService.searchMovies(this.filterTerm).subscribe(  
+    this.movieService.searchMovies(this.filterTerm).subscribe(
       (movies: Movie[]) => {
         this.movies = movies;
         this.isLoading = false;
