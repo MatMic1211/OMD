@@ -1,6 +1,8 @@
 <div class="search-container">
   <input [(ngModel)]="filterTerm" (input)="onSearch()" placeholder="Search Movies..." />
 
+  <app-movie-loader *ngIf="isLoading"></app-movie-loader>
+
   <table *ngIf="!isLoading">
     <thead>
       <tr>
