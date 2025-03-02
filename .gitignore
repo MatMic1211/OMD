@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Pointman.OMD/Pointman.OMD/obj/Debug
+/Pointman.OMD/.vs/Pointman.OMD/v17/DocumentLayout.json
+/Pointman.OMD/.vs/Pointman.OMD/v17/.suo
+/Pointman.OMD/.vs/Pointman.OMD/FileContentIndex
