@@ -1,0 +1,33 @@
+.search-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.movie-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+  .movie-table th,
+  .movie-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+
+  .movie-table th {
+    background-color: #f4f4f4;
+  }
+
+  .movie-table td {
+    background-color: #f9f9f9;
+  }
